@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Default Suite" verbose="1">
+
+    <!--verbose="1"-->
+
+    <parameter name="baseUrl" value="http://www.villageprint.com/"/>
+
+    <!-- Default Suite -->
+    <parameter name="browserName" value="chrome"/>
+
+
+
+    <test name="VPTestSuiteChrome">
+
+        <classes>
+            <!--<class name="pageobject.test.HeaderTest"/>
+            <class name="pageobject.test.HomePageTest"/>
+            <class name="pageobject.test.AboutPageTest"/>
+            <class name="pageobject.test.ServicesPageTest"/>
+            <class name="pageobject.test.WorkPageTest"/>
+            <class name="pageobject.test.BlogPageTest"/>-->
+            <class name="pageobject.test.ContactPageTest"/>
+
+        </classes>
+
+    </test>
+
+
+    <!--<test name="VPTestSuiteFF">
+        <parameter name="browserName" value="firefox"/>
+
+        <classes>
+
+            <class name="pageobject.test.HeaderTest"/>
+            <class name="pageobject.test.HomePageTest"/>
+            <class name="pageobject.test.AboutPageTest"/>
+            <class name="pageobject.test.ServicesPageTest"/>
+            <class name="pageobject.test.WorkPageTest"/>
+            <class name="pageobject.test.BlogPageTest"/>
+            <class name="pageobject.test.ContactPageTest"/>
+
+        </classes>
+
+    </test>-->
+
+
+
+
+</suite>
