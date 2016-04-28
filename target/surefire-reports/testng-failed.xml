@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default Suite]">
+  <parameter name="baseUrl" value="http://www.villageprint.com/"/>
+  <parameter name="browserName" value="chrome"/>
+  <test name="VPTestSuiteChrome(failed)">
+    <classes>
+      <class name="pageobject.test.AboutPageTest">
+        <methods>
+          <include name="verifyServicesLink"/>
+          <include name="verifyVideoFrame"/>
+        </methods>
+      </class> <!-- pageobject.test.AboutPageTest -->
+      <class name="pageobject.test.ServicesPageTest">
+        <methods>
+          <include name="isDigitalPrintingmenuCorrect"/>
+          <include name="is2ndSlideImageDisplayed"/>
+        </methods>
+      </class> <!-- pageobject.test.ServicesPageTest -->
+      <class name="pageobject.test.HomePageTest">
+        <methods>
+          <include name="isHomePageText1DisplayedAndCorrect"/>
+          <include name="verifyRequestAQuoteBtn"/>
+          <include name="isHomeHeroImageDisplayed"/>
+        </methods>
+      </class> <!-- pageobject.test.HomePageTest -->
+      <class name="pageobject.test.HeaderTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pageobject.test.HeaderTest -->
+      <class name="pageobject.test.WorkPageTest">
+        <methods>
+          <include name="imageSignatureVerification"/>
+          <include name="imageCounterVerification"/>
+          <include name="prevArrowVerification"/>
+        </methods>
+      </class> <!-- pageobject.test.WorkPageTest -->
+      <class name="pageobject.test.BlogPageTest">
+        <methods>
+          <include name="verifySearch"/>
+          <include name="verifyArticlesSorting"/>
+        </methods>
+      </class> <!-- pageobject.test.BlogPageTest -->
+      <class name="pageobject.test.ContactPageTest">
+        <methods>
+          <include name="verifyRequiredNameFieldsValidation"/>
+          <include name="verifyRequiredFieldsMainValidation"/>
+          <include name="verifyRequiredEmailFieldValidation"/>
+        </methods>
+      </class> <!-- pageobject.test.ContactPageTest -->
+    </classes>
+  </test> <!-- VPTestSuiteChrome(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

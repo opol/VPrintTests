@@ -3,12 +3,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Default Suite" verbose="1">
+    <listeners>
+        <listener class-name="pageobject.utils.CustomLogger" />
+    </listeners>
 
     <!--verbose="1"-->
 
     <parameter name="baseUrl" value="http://www.villageprint.com/"/>
 
-    <!-- Default Suite -->
     <parameter name="browserName" value="chrome"/>
 
 

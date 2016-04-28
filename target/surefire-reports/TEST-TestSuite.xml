@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="22" failures="15" name="TestSuite" time="10.065" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="15.0.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Automation\PageObjectModel\VillagePrint"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\Automation\PageObjectModel\VillagePrint"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="D:\Automation\PageObjectModel\VillagePrint\target\surefire\surefirebooter8117634420464172940.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\ULYANA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="jnidispatch.path" value="C:\Users\ULYANA~1\AppData\Local\Temp\jna-1980758878\jna2951109142705712145.dll"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;."/>
+    <property name="surefire.test.class.path" value="D:\Automation\PageObjectModel\VillagePrint\target\test-classes;D:\Automation\PageObjectModel\VillagePrint\target\classes;C:\Users\Ulyana_Opolska\.m2\repository\org\testng\testng\6.9.8\testng-6.9.8.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Ulyana_Opolska\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\Ulyana_Opolska\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ulyana_Opolska\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.8.1\surefire-testng-utils-2.8.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Ulyana_Opolska"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Ulyana_Opolska"/>
+    <property name="java.class.path" value="D:\Automation\PageObjectModel\VillagePrint\target\test-classes;D:\Automation\PageObjectModel\VillagePrint\target\classes;C:\Users\Ulyana_Opolska\.m2\repository\org\testng\testng\6.9.8\testng-6.9.8.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Ulyana_Opolska\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\Ulyana_Opolska\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ulyana_Opolska\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar;C:\Users\Ulyana_Opolska\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Ulyana_Opolska\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.8.1\surefire-testng-utils-2.8.1.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
+    <property name="sun.java.command" value="D:\Automation\PageObjectModel\VillagePrint\target\surefire\surefirebooter8117634420464172940.jar D:\Automation\PageObjectModel\VillagePrint\target\surefire\surefire6919325475519897494tmp D:\Automation\PageObjectModel\VillagePrint\target\surefire\surefire2589993579145897027tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+    <property name="webdriver.chrome.driver" value="src/main/resources/drivers/chrome-win/chromedriver.exe"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\Ulyana_Opolska\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="pageobject.test.HeaderTest" name="verifyLogo" time="0.045"/>
+  <testcase classname="pageobject.test.HeaderTest" name="verifyHomeTab" time="0.087"/>
+  <testcase classname="pageobject.test.HeaderTest" name="verifyAboutTab" time="0.083"/>
+  <testcase classname="pageobject.test.HeaderTest" name="verifyServicesTab" time="0.086"/>
+  <testcase classname="pageobject.test.HeaderTest" name="verifyWorkTab" time="0.091"/>
+  <testcase classname="pageobject.test.HeaderTest" name="verifyBlogTab" time="0.087"/>
+  <testcase classname="pageobject.test.HeaderTest" name="verifyContactTab" time="0.084"/>
+  <testcase classname="pageobject.test.HomePageTest" name="isHomeHeroImageDisplayed" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.HomePageTest.isHomeHeroImageDisplayed(HomePageTest.java:15)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.HomePageTest" name="isHomePageText1DisplayedAndCorrect" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.HomePageTest.isHomePageText1DisplayedAndCorrect(HomePageTest.java:19)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.HomePageTest" name="verifyRequestAQuoteBtn" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.HomePageTest.verifyRequestAQuoteBtn(HomePageTest.java:26)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.AboutPageTest" name="verifyServicesLink" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.AboutPageTest.verifyServicesLink(AboutPageTest.java:23)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.AboutPageTest" name="verifyVideoFrame" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.AboutPageTest.verifyVideoFrame(AboutPageTest.java:15)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.ServicesPageTest" name="is2ndSlideImageDisplayed" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.ServicesPageTest.is2ndSlideImageDisplayed(ServicesPageTest.java:16)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.ServicesPageTest" name="isDigitalPrintingmenuCorrect" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.ServicesPageTest.isDigitalPrintingmenuCorrect(ServicesPageTest.java:23)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.WorkPageTest" name="prevArrowVerification" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.WorkPageTest.prevArrowVerification(WorkPageTest.java:37)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.WorkPageTest" name="imageSignatureVerification" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.WorkPageTest.imageSignatureVerification(WorkPageTest.java:44)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.WorkPageTest" name="imageCounterVerification" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.WorkPageTest.imageCounterVerification(WorkPageTest.java:52)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.BlogPageTest" name="verifyArticlesSorting" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.BlogPageTest.verifyArticlesSorting(BlogPageTest.java:20)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.BlogPageTest" name="verifySearch" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.BlogPageTest.verifySearch(BlogPageTest.java:26)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.ContactPageTest" name="verifyRequiredFieldsMainValidation" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.ContactPageTest.verifyRequiredFieldsMainValidation(ContactPageTest.java:20)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.ContactPageTest" name="verifyRequiredNameFieldsValidation" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.ContactPageTest.verifyRequiredNameFieldsValidation(ContactPageTest.java:29)
+</failure>
+  </testcase>
+  <testcase classname="pageobject.test.ContactPageTest" name="verifyRequiredEmailFieldValidation" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pageobject.test.ContactPageTest.verifyRequiredEmailFieldValidation(ContactPageTest.java:37)
+</failure>
+  </testcase>
+</testsuite>

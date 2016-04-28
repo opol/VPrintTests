@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 10.065 sec <<< FAILURE!
+isHomeHeroImageDisplayed(pageobject.test.HomePageTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.HomePageTest.isHomeHeroImageDisplayed(HomePageTest.java:15)
+
+isHomePageText1DisplayedAndCorrect(pageobject.test.HomePageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.HomePageTest.isHomePageText1DisplayedAndCorrect(HomePageTest.java:19)
+
+verifyRequestAQuoteBtn(pageobject.test.HomePageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.HomePageTest.verifyRequestAQuoteBtn(HomePageTest.java:26)
+
+verifyServicesLink(pageobject.test.AboutPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.AboutPageTest.verifyServicesLink(AboutPageTest.java:23)
+
+verifyVideoFrame(pageobject.test.AboutPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.AboutPageTest.verifyVideoFrame(AboutPageTest.java:15)
+
+is2ndSlideImageDisplayed(pageobject.test.ServicesPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.ServicesPageTest.is2ndSlideImageDisplayed(ServicesPageTest.java:16)
+
+isDigitalPrintingmenuCorrect(pageobject.test.ServicesPageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.ServicesPageTest.isDigitalPrintingmenuCorrect(ServicesPageTest.java:23)
+
+prevArrowVerification(pageobject.test.WorkPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.WorkPageTest.prevArrowVerification(WorkPageTest.java:37)
+
+imageSignatureVerification(pageobject.test.WorkPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.WorkPageTest.imageSignatureVerification(WorkPageTest.java:44)
+
+imageCounterVerification(pageobject.test.WorkPageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.WorkPageTest.imageCounterVerification(WorkPageTest.java:52)
+
+verifyArticlesSorting(pageobject.test.BlogPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.BlogPageTest.verifyArticlesSorting(BlogPageTest.java:20)
+
+verifySearch(pageobject.test.BlogPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.BlogPageTest.verifySearch(BlogPageTest.java:26)
+
+verifyRequiredFieldsMainValidation(pageobject.test.ContactPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.ContactPageTest.verifyRequiredFieldsMainValidation(ContactPageTest.java:20)
+
+verifyRequiredNameFieldsValidation(pageobject.test.ContactPageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.ContactPageTest.verifyRequiredNameFieldsValidation(ContactPageTest.java:29)
+
+verifyRequiredEmailFieldValidation(pageobject.test.ContactPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pageobject.test.ContactPageTest.verifyRequiredEmailFieldValidation(ContactPageTest.java:37)
+
