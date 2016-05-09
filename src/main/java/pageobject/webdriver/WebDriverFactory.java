@@ -7,6 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import static com.google.common.base.Preconditions.checkNotNull;
+
 /**
  * Created by Ulyana_Opolska on 4/20/2016.
  */
@@ -55,6 +57,13 @@ public class WebDriverFactory {
         }
 
         return webDriver;
+    }
+
+    public static WebDriver getInitDriver() {
+        return checkNotNull(webDriver,
+                "WebDriver not initialized - "
+                        + "you are calling webdriver before or "
+                        + "after browser was opened or closed");
     }
 
     /**

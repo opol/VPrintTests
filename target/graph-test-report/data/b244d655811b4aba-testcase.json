@@ -1,0 +1,49 @@
+{
+  "uid" : "b244d655811b4aba",
+  "name" : "verifyRequiredFieldsMainValidation",
+  "title" : "Verify required fields main validation",
+  "time" : {
+    "start" : 1462698077952,
+    "stop" : 1462698086256,
+    "duration" : 8304
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "verifyRequiredFieldsMainValidation",
+    "title" : "Verify required fields main validation",
+    "time" : {
+      "start" : 1462698078000,
+      "stop" : 1462698086254,
+      "duration" : 8254
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "VPTestSuiteChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

@@ -10,18 +10,18 @@ import pageobject.testbase.TestBase;
  */
 public class HomePageTest extends TestBase {
 
-    @Test
+    @Test(priority = 1)
     public void isHomeHeroImageDisplayed () {
         Assert.assertEquals(homePage.getHomeHeroImageUrl(), "url(\"http://www.villageprint.com/wp-content/uploads/2015/11/VPM_Website_Header_1920x900_95.jpg\")", " Hero image is not displayed or source is incorrect");
     }
-    @Test
+    @Test(priority = 2)
     public void isHomePageText1DisplayedAndCorrect () {
         Assert.assertTrue(homePage.isHomePageText1Displayed(), "HomePageText1 is not displayed");
         Assert.assertEquals(homePage.isHomePageText1Correct(), "Manhattan’s most innovative creative solutions agency.", "HomePageText1 is not correct");
 
     }
 
-    @Test
+    @Test(priority = 3)
     public void verifyRequestAQuoteBtn (){
         Assert.assertTrue(homePage.requestAQuoteBtnDisplayed(), "requestAQuoteBtn is not displayed");
         Assert.assertEquals(homePage.requestAQuoteBtnAttributeVerification(),"http://www.villageprint.com/request-a-quote/","requestAQuoteBtn attribute is incorrect");

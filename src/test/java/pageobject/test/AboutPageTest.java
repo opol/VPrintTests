@@ -10,7 +10,7 @@ import pageobject.testbase.TestBase;
  */
 public class AboutPageTest extends TestBase {
 
-    @Test
+    @Test(priority = 1)
     public void verifyVideoFrame () {
         AboutPage aboutPage = header.clickOnAboutTab();
         Assert.assertTrue(aboutPage.isVideoFrameDisplayed(), "Video Iframe is not displayed");
@@ -18,7 +18,7 @@ public class AboutPageTest extends TestBase {
         Assert.assertTrue(aboutPage.isPlayBtnDisplayed(), "PlayBtn is not displayed");
     }
 
-    @Test
+    @Test(priority = 2)
             public void verifyServicesLink() {
         AboutPage aboutPage = header.clickOnAboutTab();
         //Assert.assertTrue(aboutPage.servicesLinkVerification(), "ServicesLink is not displayed");

@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "b244d655811b4aba",
+    "name" : "verifyRequiredFieldsMainValidation",
+    "title" : "Verify required fields main validation",
+    "time" : {
+      "start" : 1462698077952,
+      "stop" : 1462698086256,
+      "duration" : 8304
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fa1fcc5375860d00",
+    "name" : "verifyRequiredFieldsMainValidation",
+    "title" : "Verify required fields main validation",
+    "time" : {
+      "start" : 1462698077952,
+      "stop" : 1462698086256,
+      "duration" : 8304
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

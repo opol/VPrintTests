@@ -1,0 +1,68 @@
+{
+  "time" : {
+    "start" : 1462698068851,
+    "stop" : 1462698088149,
+    "duration" : 19298
+  },
+  "testSuites" : [ {
+    "uid" : "214c58f319bbdb9a",
+    "name" : "Default Suite",
+    "title" : "Default suite",
+    "time" : {
+      "start" : 1462698068851,
+      "stop" : 1462698087733,
+      "duration" : 18882
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "b244d655811b4aba",
+      "name" : "verifyRequiredFieldsMainValidation",
+      "title" : "Verify required fields main validation",
+      "time" : {
+        "start" : 1462698077952,
+        "stop" : 1462698086256,
+        "duration" : 8304
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "800c93545982122c",
+    "name" : "Default Suite",
+    "title" : "Default suite",
+    "time" : {
+      "start" : 1462698068851,
+      "stop" : 1462698088149,
+      "duration" : 19298
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "fa1fcc5375860d00",
+      "name" : "verifyRequiredFieldsMainValidation",
+      "title" : "Verify required fields main validation",
+      "time" : {
+        "start" : 1462698077952,
+        "stop" : 1462698086256,
+        "duration" : 8304
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

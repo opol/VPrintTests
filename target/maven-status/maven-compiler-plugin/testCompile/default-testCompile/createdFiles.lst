@@ -1,0 +1,8 @@
+pageobject\test\ContactPageTest.class
+pageobject\test\HeaderTest.class
+pageobject\test\BlogPageTest.class
+pageobject\testbase\TestBase.class
+pageobject\test\HomePageTest.class
+pageobject\test\AboutPageTest.class
+pageobject\test\ServicesPageTest.class
+pageobject\test\WorkPageTest.class

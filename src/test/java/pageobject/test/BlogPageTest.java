@@ -15,13 +15,13 @@ import java.text.ParseException;
  */
 public class BlogPageTest extends TestBase {
 
-    @Test
+    @Test(priority = 1)
     public void verifyArticlesSorting() throws ParseException {
         BlogPage blogPage = header.clickOnBlogTab();
         Assert.assertTrue(blogPage.returnDatesPublished(), "Articles are not sorted by DatePublished Descending");
 
     }
-    @Test
+    @Test(priority = 2)
     public void verifySearch() throws ParseException, InterruptedException {
         BlogPage blogPage = header.clickOnBlogTab();
         Assert.assertTrue(blogPage.searchVerification(), "Search does not work");

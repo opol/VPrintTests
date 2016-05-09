@@ -1,0 +1,11 @@
+pageobject\pages\Page.class
+pageobject\pages\ServicesPage.class
+listeners\OnTestFailureListener.class
+pageobject\pages\AboutPage.class
+pageobject\utils\CustomLogger.class
+pageobject\pages\WorkPage.class
+pageobject\pages\ContactPage.class
+pageobject\pages\HomePage.class
+pageobject\webdriver\WebDriverFactory.class
+pageobject\pages\BlogPage.class
+pageobject\pages\HeaderPage.class

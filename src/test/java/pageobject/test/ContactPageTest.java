@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import pageobject.pages.ContactPage;
 
 import pageobject.testbase.TestBase;
+import ru.yandex.qatools.allure.annotations.Step;
 
 /**
  * Created by Ulyana_Opolska on 4/25/2016.
@@ -15,7 +16,7 @@ public class ContactPageTest extends TestBase {
 
   private Logger log = Logger.getLogger(this.getClass());
 
-
+    @Step
     @Test(priority = 1)
     public void verifyRequiredFieldsMainValidation() {
         ContactPage contactPage = header.clickOnContactTab();
