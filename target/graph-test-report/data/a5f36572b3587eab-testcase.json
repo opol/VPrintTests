@@ -1,0 +1,34 @@
+{
+  "uid" : "a5f36572b3587eab",
+  "name" : "verifySearch",
+  "title" : "Verify search",
+  "time" : {
+    "start" : 1462894371852,
+    "stop" : 1462894376087,
+    "duration" : 4235
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "VPTestSuiteChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

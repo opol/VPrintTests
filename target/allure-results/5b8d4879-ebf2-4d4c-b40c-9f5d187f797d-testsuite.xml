@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1462894174826" stop="1462894394656" version="1.4.0">
+    <name>VillagePrint Site Test Suite</name>
+    <test-cases>
+        <test-case start="1462894186436" stop="1462894186500" status="passed">
+            <name>verifyLogo</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894197022" stop="1462894197123" status="passed">
+            <name>verifyHomeTab</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894210231" stop="1462894210351" status="passed">
+            <name>verifyAboutTab</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894221206" stop="1462894221317" status="passed">
+            <name>verifyServicesTab</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894232439" stop="1462894232539" status="passed">
+            <name>verifyWorkTab</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894240722" stop="1462894240861" status="passed">
+            <name>verifyBlogTab</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894251781" stop="1462894251886" status="passed">
+            <name>verifyContactTab</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894260559" stop="1462894260598" status="passed">
+            <name>isHomeHeroImageDisplayed</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894269261" stop="1462894269351" status="passed">
+            <name>isHomePageText1DisplayedAndCorrect</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894277867" stop="1462894277959" status="passed">
+            <name>verifyRequestAQuoteBtn</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894286700" stop="1462894289683" status="passed">
+            <name>verifyServicesLink</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894297821" stop="1462894301558" status="passed">
+            <name>is2ndSlideImageDisplayed</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894309067" stop="1462894313256" status="passed">
+            <name>isDigitalPrintingmenuCorrect</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894321715" stop="1462894327041" status="passed">
+            <name>prevArrowVerification</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894334878" stop="1462894339284" status="passed">
+            <name>imageSignatureVerification</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894346966" stop="1462894352200" status="passed">
+            <name>imageCounterVerification</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894361312" stop="1462894364362" status="passed">
+            <name>verifyArticlesSorting</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894371852" stop="1462894376087" status="passed">
+            <name>verifySearch</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1462894384418" stop="1462894393281" status="passed">
+            <name>verifyRequiredFieldsMainValidation</name>
+            <steps>
+                <step start="1462894384467" stop="1462894393280" status="passed">
+                    <name>verifyRequiredFieldsMainValidation</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="feature" value="VPTestSuiteChrome"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

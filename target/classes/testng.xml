@@ -2,7 +2,7 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Default Suite" verbose="1">
+<suite name="VillagePrint Site Test Suite" verbose="1">
     <listeners>
         <listener class-name="pageobject.utils.CustomLogger" />
     </listeners>
@@ -18,12 +18,12 @@
     <test name="VPTestSuiteChrome">
 
         <classes>
-            <!--<class name="pageobject.test.HeaderTest"/>
+            <class name="pageobject.test.HeaderTest"/>
             <class name="pageobject.test.HomePageTest"/>
             <class name="pageobject.test.AboutPageTest"/>
             <class name="pageobject.test.ServicesPageTest"/>
             <class name="pageobject.test.WorkPageTest"/>
-            <class name="pageobject.test.BlogPageTest"/>-->
+            <class name="pageobject.test.BlogPageTest"/>
             <class name="pageobject.test.ContactPageTest"/>
 
         </classes>

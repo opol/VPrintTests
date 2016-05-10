@@ -1,0 +1,34 @@
+{
+  "uid" : "e81cc991d7e259e9",
+  "name" : "verifyAboutTab",
+  "title" : "Verify about tab",
+  "time" : {
+    "start" : 1462894210231,
+    "stop" : 1462894210351,
+    "duration" : 120
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "VPTestSuiteChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

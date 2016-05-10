@@ -1,0 +1,34 @@
+{
+  "uid" : "a122f1dec33dbc60",
+  "name" : "verifyWorkTab",
+  "title" : "Verify work tab",
+  "time" : {
+    "start" : 1462894232439,
+    "stop" : 1462894232539,
+    "duration" : 100
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "VPTestSuiteChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

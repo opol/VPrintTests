@@ -1,11 +1,11 @@
 {
-  "uid" : "fa1fcc5375860d00",
+  "uid" : "6cf60a2590d76bd1",
   "name" : "verifyRequiredFieldsMainValidation",
   "title" : "Verify required fields main validation",
   "time" : {
-    "start" : 1462698077952,
-    "stop" : 1462698086256,
-    "duration" : 8304
+    "start" : 1462894384418,
+    "stop" : 1462894393281,
+    "duration" : 8863
   },
   "summary" : {
     "attachments" : 0,
@@ -19,9 +19,9 @@
     "name" : "verifyRequiredFieldsMainValidation",
     "title" : "Verify required fields main validation",
     "time" : {
-      "start" : 1462698078000,
-      "stop" : 1462698086254,
-      "duration" : 8254
+      "start" : 1462894384467,
+      "stop" : 1462894393280,
+      "duration" : 8813
     },
     "summary" : {
       "attachments" : 0,

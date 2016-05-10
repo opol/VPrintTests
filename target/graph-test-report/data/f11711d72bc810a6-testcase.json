@@ -1,0 +1,34 @@
+{
+  "uid" : "f11711d72bc810a6",
+  "name" : "isHomePageText1DisplayedAndCorrect",
+  "title" : "Is home page text 1 displayed and correct",
+  "time" : {
+    "start" : 1462894269261,
+    "stop" : 1462894269351,
+    "duration" : 90
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "VPTestSuiteChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

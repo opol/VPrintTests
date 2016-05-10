@@ -1,23 +1,419 @@
 {
   "testCases" : [ {
-    "uid" : "b244d655811b4aba",
-    "name" : "verifyRequiredFieldsMainValidation",
-    "title" : "Verify required fields main validation",
+    "uid" : "ac1016c8547a5f88",
+    "name" : "verifyLogo",
+    "title" : "Verify logo",
     "time" : {
-      "start" : 1462698077952,
-      "stop" : 1462698086256,
-      "duration" : 8304
+      "start" : 1462894186436,
+      "stop" : 1462894186500,
+      "duration" : 64
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "fa1fcc5375860d00",
+    "uid" : "820ac5a9b73b59",
+    "name" : "verifyHomeTab",
+    "title" : "Verify home tab",
+    "time" : {
+      "start" : 1462894197022,
+      "stop" : 1462894197123,
+      "duration" : 101
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e81cc991d7e259e9",
+    "name" : "verifyAboutTab",
+    "title" : "Verify about tab",
+    "time" : {
+      "start" : 1462894210231,
+      "stop" : 1462894210351,
+      "duration" : 120
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7910e14deda058fc",
+    "name" : "verifyServicesTab",
+    "title" : "Verify services tab",
+    "time" : {
+      "start" : 1462894221206,
+      "stop" : 1462894221317,
+      "duration" : 111
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4b723e6ac3b1fb1a",
+    "name" : "verifyWorkTab",
+    "title" : "Verify work tab",
+    "time" : {
+      "start" : 1462894232439,
+      "stop" : 1462894232539,
+      "duration" : 100
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9f4aff73f0ceb1ad",
+    "name" : "verifyBlogTab",
+    "title" : "Verify blog tab",
+    "time" : {
+      "start" : 1462894240722,
+      "stop" : 1462894240861,
+      "duration" : 139
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "eb21fe3005b3d600",
+    "name" : "verifyContactTab",
+    "title" : "Verify contact tab",
+    "time" : {
+      "start" : 1462894251781,
+      "stop" : 1462894251886,
+      "duration" : 105
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b8b583cdfa744d79",
+    "name" : "isHomeHeroImageDisplayed",
+    "title" : "Is home hero image displayed",
+    "time" : {
+      "start" : 1462894260559,
+      "stop" : 1462894260598,
+      "duration" : 39
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "590aa85ca0c1d3f2",
+    "name" : "isHomePageText1DisplayedAndCorrect",
+    "title" : "Is home page text 1 displayed and correct",
+    "time" : {
+      "start" : 1462894269261,
+      "stop" : 1462894269351,
+      "duration" : 90
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4c0e26651353c87d",
+    "name" : "verifyRequestAQuoteBtn",
+    "title" : "Verify request A quote btn",
+    "time" : {
+      "start" : 1462894277867,
+      "stop" : 1462894277959,
+      "duration" : 92
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "42a6303869abb161",
+    "name" : "verifyServicesLink",
+    "title" : "Verify services link",
+    "time" : {
+      "start" : 1462894286700,
+      "stop" : 1462894289683,
+      "duration" : 2983
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "40d0957719e69c5e",
+    "name" : "is2ndSlideImageDisplayed",
+    "title" : "Is 2nd slide image displayed",
+    "time" : {
+      "start" : 1462894297821,
+      "stop" : 1462894301558,
+      "duration" : 3737
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ac996e54397400f7",
+    "name" : "isDigitalPrintingmenuCorrect",
+    "title" : "Is digital printingmenu correct",
+    "time" : {
+      "start" : 1462894309067,
+      "stop" : 1462894313256,
+      "duration" : 4189
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "748b7df3c05a7947",
+    "name" : "prevArrowVerification",
+    "title" : "Prev arrow verification",
+    "time" : {
+      "start" : 1462894321715,
+      "stop" : 1462894327041,
+      "duration" : 5326
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b58f0ce72ad5b984",
+    "name" : "imageSignatureVerification",
+    "title" : "Image signature verification",
+    "time" : {
+      "start" : 1462894334878,
+      "stop" : 1462894339284,
+      "duration" : 4406
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "77cf4bce9ca5f80d",
+    "name" : "imageCounterVerification",
+    "title" : "Image counter verification",
+    "time" : {
+      "start" : 1462894346966,
+      "stop" : 1462894352200,
+      "duration" : 5234
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "953a73f07dfa83f2",
+    "name" : "verifyArticlesSorting",
+    "title" : "Verify articles sorting",
+    "time" : {
+      "start" : 1462894361312,
+      "stop" : 1462894364362,
+      "duration" : 3050
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "53ae31d224e0e8e3",
+    "name" : "verifySearch",
+    "title" : "Verify search",
+    "time" : {
+      "start" : 1462894371852,
+      "stop" : 1462894376087,
+      "duration" : 4235
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6cf60a2590d76bd1",
     "name" : "verifyRequiredFieldsMainValidation",
     "title" : "Verify required fields main validation",
     "time" : {
-      "start" : 1462698077952,
-      "stop" : 1462698086256,
-      "duration" : 8304
+      "start" : 1462894384418,
+      "stop" : 1462894393281,
+      "duration" : 8863
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1b5a5e13244aca69",
+    "name" : "verifyLogo",
+    "title" : "Verify logo",
+    "time" : {
+      "start" : 1462894186436,
+      "stop" : 1462894186500,
+      "duration" : 64
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "743f971b1eaeb44b",
+    "name" : "verifyHomeTab",
+    "title" : "Verify home tab",
+    "time" : {
+      "start" : 1462894197022,
+      "stop" : 1462894197123,
+      "duration" : 101
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "cf3900d86c77180e",
+    "name" : "verifyAboutTab",
+    "title" : "Verify about tab",
+    "time" : {
+      "start" : 1462894210231,
+      "stop" : 1462894210351,
+      "duration" : 120
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ff7f2a8fef38689d",
+    "name" : "verifyServicesTab",
+    "title" : "Verify services tab",
+    "time" : {
+      "start" : 1462894221206,
+      "stop" : 1462894221317,
+      "duration" : 111
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a122f1dec33dbc60",
+    "name" : "verifyWorkTab",
+    "title" : "Verify work tab",
+    "time" : {
+      "start" : 1462894232439,
+      "stop" : 1462894232539,
+      "duration" : 100
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b243c87f1d345027",
+    "name" : "verifyBlogTab",
+    "title" : "Verify blog tab",
+    "time" : {
+      "start" : 1462894240722,
+      "stop" : 1462894240861,
+      "duration" : 139
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "71a0a864066d505d",
+    "name" : "verifyContactTab",
+    "title" : "Verify contact tab",
+    "time" : {
+      "start" : 1462894251781,
+      "stop" : 1462894251886,
+      "duration" : 105
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "aa3985376ff1f9c6",
+    "name" : "isHomeHeroImageDisplayed",
+    "title" : "Is home hero image displayed",
+    "time" : {
+      "start" : 1462894260559,
+      "stop" : 1462894260598,
+      "duration" : 39
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f11711d72bc810a6",
+    "name" : "isHomePageText1DisplayedAndCorrect",
+    "title" : "Is home page text 1 displayed and correct",
+    "time" : {
+      "start" : 1462894269261,
+      "stop" : 1462894269351,
+      "duration" : 90
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ec3b002c50d7ebad",
+    "name" : "verifyRequestAQuoteBtn",
+    "title" : "Verify request A quote btn",
+    "time" : {
+      "start" : 1462894277867,
+      "stop" : 1462894277959,
+      "duration" : 92
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b2e24b010e39abeb",
+    "name" : "verifyServicesLink",
+    "title" : "Verify services link",
+    "time" : {
+      "start" : 1462894286700,
+      "stop" : 1462894289683,
+      "duration" : 2983
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fdbcc1052bddf412",
+    "name" : "is2ndSlideImageDisplayed",
+    "title" : "Is 2nd slide image displayed",
+    "time" : {
+      "start" : 1462894297821,
+      "stop" : 1462894301558,
+      "duration" : 3737
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a49d2ff4fefd464",
+    "name" : "isDigitalPrintingmenuCorrect",
+    "title" : "Is digital printingmenu correct",
+    "time" : {
+      "start" : 1462894309067,
+      "stop" : 1462894313256,
+      "duration" : 4189
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "180fd8872df1b3e1",
+    "name" : "prevArrowVerification",
+    "title" : "Prev arrow verification",
+    "time" : {
+      "start" : 1462894321715,
+      "stop" : 1462894327041,
+      "duration" : 5326
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f784c6abaedf6d84",
+    "name" : "imageSignatureVerification",
+    "title" : "Image signature verification",
+    "time" : {
+      "start" : 1462894334878,
+      "stop" : 1462894339284,
+      "duration" : 4406
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c95a69911e0f4ac0",
+    "name" : "imageCounterVerification",
+    "title" : "Image counter verification",
+    "time" : {
+      "start" : 1462894346966,
+      "stop" : 1462894352200,
+      "duration" : 5234
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "428e7ca78050c4f",
+    "name" : "verifyArticlesSorting",
+    "title" : "Verify articles sorting",
+    "time" : {
+      "start" : 1462894361312,
+      "stop" : 1462894364362,
+      "duration" : 3050
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a5f36572b3587eab",
+    "name" : "verifySearch",
+    "title" : "Verify search",
+    "time" : {
+      "start" : 1462894371852,
+      "stop" : 1462894376087,
+      "duration" : 4235
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fddf2c69fff5ce39",
+    "name" : "verifyRequiredFieldsMainValidation",
+    "title" : "Verify required fields main validation",
+    "time" : {
+      "start" : 1462894384418,
+      "stop" : 1462894393281,
+      "duration" : 8863
     },
     "severity" : "NORMAL",
     "status" : "PASSED"

@@ -2,7 +2,7 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Default Suite" verbose="1">
+<suite name="VillagePrint Site Test Suite" verbose="1">
     <listeners>
         <listener class-name="pageobject.utils.CustomLogger" />
     </listeners>

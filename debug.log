@@ -1,0 +1,23 @@
+[0510/180636:ERROR:process_reader_win.cc(232)] ReadMemory at 0x4f6000 of 40960 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0510/180636:ERROR:crash_report_exception_handler.cc(102)] WriteEverything failed
+[0510/180636:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0510/181357:ERROR:process_reader_win.cc(141)] SuspendThread: Access is denied. (0x5)
+[0510/181357:ERROR:exception_snapshot_win.cc(57)] thread ID 2820 not found in process
+[0510/181357:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0510/181357:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0510/181432:ERROR:process_reader_win.cc(141)] SuspendThread: Access is denied. (0x5)
+[0510/181432:ERROR:exception_snapshot_win.cc(57)] thread ID 15592 not found in process
+[0510/181432:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0510/181432:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0510/181440:ERROR:process_reader_win.cc(141)] SuspendThread: Access is denied. (0x5)
+[0510/181440:ERROR:exception_snapshot_win.cc(57)] thread ID 11796 not found in process
+[0510/181440:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0510/181440:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0510/181737:ERROR:process_reader_win.cc(141)] SuspendThread: Access is denied. (0x5)
+[0510/181737:ERROR:exception_snapshot_win.cc(57)] thread ID 10536 not found in process
+[0510/181737:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0510/181737:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0510/183141:ERROR:process_reader_win.cc(141)] SuspendThread: Access is denied. (0x5)
+[0510/183141:ERROR:exception_snapshot_win.cc(57)] thread ID 12400 not found in process
+[0510/183141:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0510/183141:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558

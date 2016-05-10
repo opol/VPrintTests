@@ -1,0 +1,34 @@
+{
+  "uid" : "4c0e26651353c87d",
+  "name" : "verifyRequestAQuoteBtn",
+  "title" : "Verify request A quote btn",
+  "time" : {
+    "start" : 1462894277867,
+    "stop" : 1462894277959,
+    "duration" : 92
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "VPTestSuiteChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

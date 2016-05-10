@@ -10,15 +10,15 @@ import pageobject.testbase.TestBase;
  */
 public class AboutPageTest extends TestBase {
 
-    @Test(priority = 1)
+   /* @Test(priority = 1)
     public void verifyVideoFrame () {
         AboutPage aboutPage = header.clickOnAboutTab();
         Assert.assertTrue(aboutPage.isVideoFrameDisplayed(), "Video Iframe is not displayed");
         Assert.assertTrue(aboutPage.isVideoPreloadDisplayed(), "Video Preload is not displayed");
         Assert.assertTrue(aboutPage.isPlayBtnDisplayed(), "PlayBtn is not displayed");
-    }
+    }*/
 
-    @Test(priority = 2)
+    @Test
             public void verifyServicesLink() {
         AboutPage aboutPage = header.clickOnAboutTab();
         //Assert.assertTrue(aboutPage.servicesLinkVerification(), "ServicesLink is not displayed");

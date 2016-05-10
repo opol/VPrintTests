@@ -1,0 +1,34 @@
+{
+  "uid" : "180fd8872df1b3e1",
+  "name" : "prevArrowVerification",
+  "title" : "Prev arrow verification",
+  "time" : {
+    "start" : 1462894321715,
+    "stop" : 1462894327041,
+    "duration" : 5326
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "VPTestSuiteChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

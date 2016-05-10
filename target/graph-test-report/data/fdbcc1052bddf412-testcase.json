@@ -1,0 +1,34 @@
+{
+  "uid" : "fdbcc1052bddf412",
+  "name" : "is2ndSlideImageDisplayed",
+  "title" : "Is 2nd slide image displayed",
+  "time" : {
+    "start" : 1462894297821,
+    "stop" : 1462894301558,
+    "duration" : 3737
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "VPTestSuiteChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

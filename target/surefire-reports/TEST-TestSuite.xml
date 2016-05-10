@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="8.549" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="43.105" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="15.0.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7536"/>
+    <property name="idea.launcher.port" value="7538"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -63,5 +63,23 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verifyRequiredFieldsMainValidation" classname="pageobject.test.ContactPageTest" time="8.549"/>
+  <testcase name="verifyLogo" classname="pageobject.test.HeaderTest" time="0.181"/>
+  <testcase name="verifyHomeTab" classname="pageobject.test.HeaderTest" time="0.101"/>
+  <testcase name="verifyAboutTab" classname="pageobject.test.HeaderTest" time="0.121"/>
+  <testcase name="verifyServicesTab" classname="pageobject.test.HeaderTest" time="0.111"/>
+  <testcase name="verifyWorkTab" classname="pageobject.test.HeaderTest" time="0.1"/>
+  <testcase name="verifyBlogTab" classname="pageobject.test.HeaderTest" time="0.138"/>
+  <testcase name="verifyContactTab" classname="pageobject.test.HeaderTest" time="0.105"/>
+  <testcase name="isHomeHeroImageDisplayed" classname="pageobject.test.HomePageTest" time="0.041"/>
+  <testcase name="isHomePageText1DisplayedAndCorrect" classname="pageobject.test.HomePageTest" time="0.091"/>
+  <testcase name="verifyRequestAQuoteBtn" classname="pageobject.test.HomePageTest" time="0.093"/>
+  <testcase name="verifyServicesLink" classname="pageobject.test.AboutPageTest" time="2.983"/>
+  <testcase name="is2ndSlideImageDisplayed" classname="pageobject.test.ServicesPageTest" time="3.738"/>
+  <testcase name="isDigitalPrintingmenuCorrect" classname="pageobject.test.ServicesPageTest" time="4.19"/>
+  <testcase name="prevArrowVerification" classname="pageobject.test.WorkPageTest" time="5.324"/>
+  <testcase name="imageSignatureVerification" classname="pageobject.test.WorkPageTest" time="4.406"/>
+  <testcase name="imageCounterVerification" classname="pageobject.test.WorkPageTest" time="5.234"/>
+  <testcase name="verifyArticlesSorting" classname="pageobject.test.BlogPageTest" time="3.051"/>
+  <testcase name="verifySearch" classname="pageobject.test.BlogPageTest" time="4.235"/>
+  <testcase name="verifyRequiredFieldsMainValidation" classname="pageobject.test.ContactPageTest" time="8.862"/>
 </testsuite>

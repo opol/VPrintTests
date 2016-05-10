@@ -1,0 +1,34 @@
+{
+  "uid" : "ff7f2a8fef38689d",
+  "name" : "verifyServicesTab",
+  "title" : "Verify services tab",
+  "time" : {
+    "start" : 1462894221206,
+    "stop" : 1462894221317,
+    "duration" : 111
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "VPTestSuiteChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}
