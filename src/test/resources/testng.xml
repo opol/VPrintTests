@@ -18,12 +18,12 @@
     <test name="VPTestSuiteChrome">
 
         <classes>
-            <class name="pageobject.test.HeaderTest"/>
+            <!--<class name="pageobject.test.HeaderTest"/>
             <class name="pageobject.test.HomePageTest"/>
             <class name="pageobject.test.AboutPageTest"/>
             <class name="pageobject.test.ServicesPageTest"/>
             <class name="pageobject.test.WorkPageTest"/>
-            <class name="pageobject.test.BlogPageTest"/>
+            <class name="pageobject.test.BlogPageTest"/>-->
             <class name="pageobject.test.ContactPageTest"/>
 
         </classes>
